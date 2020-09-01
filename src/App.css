@@ -28,6 +28,47 @@
   color: #61dafb;
 }
 
+#root {
+  background: purple;
+  padding: 50px;
+}
+
+.checkList ul {
+  background: #fff;
+  min-width: 350px;
+  min-height: 500px;
+  border-radius: 10px;
+  text-align: left;
+  padding: 25px;
+}
+.checkedList ul {
+  background: #fff;
+  min-width: 350px;
+  min-height: 500px;
+  border-radius: 10px;
+  text-align: left;
+  padding: 25px;
+}
+.checkedList ul li {
+  background: rgba(128, 128, 128, 0.267);
+  list-style: none;
+  padding: 15px;
+  color: #848484;
+  margin-bottom: 10px;
+  font-size: 14px;
+}
+.list-group-flush > .list-group-item {
+  border: none;
+}
+.close {
+  font-size: 20px;
+  font-weight: 100;
+  cursor: pointer;
+}
+.custom-control-input:checked ~ .custom-control-label::before {
+  border-color: purple;
+  background-color: purple;
+}
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
